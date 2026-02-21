@@ -13,7 +13,10 @@ venv/
 Thumbs.db
 .DS_Store
 
-# Project - data folders
-Videos/
-Transcripts/
-Others/
+# Project - ignore data files but keep folders
+Videos/*
+!Videos/.gitkeep
+Transcripts/*
+!Transcripts/.gitkeep
+Others/*
+!Others/.gitkeep
